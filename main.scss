@@ -23,6 +23,7 @@ body {
   flex-direction: column;
   align-items: center;
   transition: all 1s;
+  border-radius: 10px;
 
   &__photo {
     width: $column-size;
