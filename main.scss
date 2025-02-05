@@ -10,7 +10,7 @@ body {
 .people {
   display: grid;
   grid-template-columns: repeat(2, $column-size);
-  gap: 30px 20px;
+  gap: 10px 30px;
   justify-content: center;
 
   @media (min-width: 1000px) {
@@ -97,6 +97,7 @@ body {
   &:hover {
     transform: scale(1.2);
     background-color: #eeeeee;
+    z-index: 1;
 
     & > .person__photo {
       border-radius: 25%;
